@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Kalista.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GroupNameList" Type="System.String" Scope="User">
+      <Value Profile="(Default)">格林卫,龙之旅,英飞,洋学堂</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

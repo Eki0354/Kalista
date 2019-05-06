@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab id="tab_roomStatusEdit" label="房态编辑">
+                <group id="group_view" label="视图">
+                    <checkBox id="checkBox_view_TRS" visible="false" label="交通房态" />
+                    <checkBox id="checkBox_view_simplify" onAction="checkBox_view_simplify_Click" screentip="设置/取消精简视图" supertip="选中时将以精简视图查看房态，隐藏前三列和第一行；取消选中时恢复显示。" label="精简视图" />
+                </group>
+                <group id="group_roomState" label="房态">
+                    <buttonGroup id="buttonGroup_rs0">
+                        <button id="button_rs_noShow" onAction="button_rs_noShow_Click" label="button1" showLabel="false" />
+                        <button id="button_rs_default" onAction="button_rs_default_Click" label="button1" showLabel="false" />
+                        <button id="button_rs_prepaid" onAction="button_rs_prepaid_Click" label="button1" showLabel="false" />
+                    </buttonGroup>
+                    <buttonGroup id="buttonGroup1">
+                        <button id="button_rs_unpaid" onAction="button_rs_unpaid_Click" label="button1" showLabel="false" />
+                        <button id="button_rs_paid" onAction="button_rs_paid_Click" label="button1" showLabel="false" />
+                        <button id="button_rs_checkedOut" onAction="button_rs_checkedOut_Click" label="button1" showLabel="false" />
+                    </buttonGroup>
+                    <button id="button_rs_pickUp" label="接机安排" size="large" />
+                    <button id="button_rs_pasteRes" onAction="button_rs_pasteRes_Click" label="粘贴预订" size="large" />
+                </group>
+                <group id="group_format" label="格式">
+                    <splitButton id="splitButton_fmt_comment">
+                        <button id="splitButton_fmt_comment__btn" label="批注自调" />
+                        <menu id="splitButton_fmt_comment__mnu">
+                            <button id="button1" label="button1" />
+                        </menu>
+                    </splitButton>
+                    <splitButton id="splitButton_fmt_cell">
+                        <button id="splitButton_fmt_cell__btn" label="区域格式" />
+                        <menu id="splitButton_fmt_cell__mnu">
+                            <button id="button_fmt_allBorders" label="全部边框" />
+                            <button id="button_fmt_uniform" label="标准格式" />
+                            <button id="button_fmt_above" label="以上叠加" />
+                        </menu>
+                    </splitButton>
+                    <splitButton id="splitButton_fmt_clear">
+                        <button id="splitButton_fmt_clear__btn" label="清除区域" />
+                        <menu id="splitButton_fmt_clear__mnu" />
+                    </splitButton>
+                </group>
+                <group id="group_clear" label="清除" />
+                <group id="group_quickActions" label="快捷">
+                    <button id="button_qa_roomStatusForm" label="当前房态" />
+                    <button id="button_qa_depositForm" label="今日押金" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
