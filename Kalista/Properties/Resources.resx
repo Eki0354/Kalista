@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="dep_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\dep_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_pasteRes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_pasteRes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fmt_itinialize" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\fmt_itinialize.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_F3C_hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_F3C_hide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_paid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_paid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_delete_shape" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_delete_shape.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_TRS_show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_TRS_show.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_noShow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_noShow.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fmt_bordersAll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\fmt_bordersAll.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_delete_selected" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_delete_selected.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_checkedOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_checkedOut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_default.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_pickUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_pickUp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qa_sheet_deposit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\qa_sheet_deposit.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dep_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\dep_100.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dep_custom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\dep_custom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="qa_sheet_dailyRS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\qa_sheet_dailyRS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_F3C_show" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_F3C_show.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_prepaid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_prepaid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_TRS_hide" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_TRS_hide.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_delete_res" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_delete_res.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rs_unpaid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\rs_unpaid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fmt_shapeAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icons\fmt_shapeAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StaffSet" xml:space="preserve">
+    <value>Mori,Eki,Tank,Cindy,May,Kevin,Mary,Edward</value>
+  </data>
+  <data name="Report_Columns" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Report_Content" xml:space="preserve">
+    <value>※注：预付微信请标a，支付宝请标b，银行卡转账请标c，并把金额写起,谢谢！如a-400</value>
+  </data>
+  <data name="Report_ReceiptCount" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="Report_Title" xml:space="preserve">
+    <value>前台收入表    {0}年{1}月{2}日{3}</value>
+  </data>
+  <data name="收入报表模板" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\收入报表模板.xltx;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RoomTypeString" xml:space="preserve">
+    <value>普通6人间,普通4人间,普通单人,普通三人间,标准双床间,标准大床房,标准三人间,家庭房,普通双人间,普通大床房</value>
+  </data>
+  <data name="RoomNoString" xml:space="preserve">
+    <value>101-1,101-1,101-3,101-4,102-1,</value>
+  </data>
+  <data name="CurrencyRateSite" xml:space="preserve">
+    <value>http://fx.cmbchina.com/Hq/</value>
+  </data>
+  <data name="CurrencyRegexString" xml:space="preserve">
+    <value>(?&lt;=&lt;tr&gt;\s*&lt;td class=\x22fontbold\x22&gt;\s*Currency\s*&lt;/td&gt;\s*(?:&lt;td[^&lt;&gt;]*&gt;[^&lt;&gt;]*&lt;/td&gt;\s*){5}&lt;td class=\x22numberright\x22&gt;\s*)[\d.]+(?=\s*&lt;/td&gt;)</value>
+  </data>
+  <data name="CurrencyRegexStringReplaceKeyword" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="CurrencyNames" xml:space="preserve">
+    <value>港币,新西兰元,澳大利亚元,美元,欧元,加拿大元,英镑,日元,新加坡元,瑞士法郎</value>
+  </data>
+  <data name="ColumnIndex_Day0" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ColumnIndex_RoomNumber" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RowIndex_Max" xml:space="preserve">
+    <value>81</value>
+  </data>
+  <data name="RowIndex_Min" xml:space="preserve">
+    <value>3</value>
+  </data>
+</root>
