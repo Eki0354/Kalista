@@ -38,6 +38,14 @@
             this.tab_roomStatusEdit = this.Factory.CreateRibbonTab();
             this.group_view = this.Factory.CreateRibbonGroup();
             this.checkBox_view_simplify = this.Factory.CreateRibbonCheckBox();
+            this.group_tool = this.Factory.CreateRibbonGroup();
+            this.checkBox_tool_autoBackup = this.Factory.CreateRibbonCheckBox();
+            this.group_roomState = this.Factory.CreateRibbonGroup();
+            this.buttonGroup_rs0 = this.Factory.CreateRibbonButtonGroup();
+            this.buttonGroup1 = this.Factory.CreateRibbonButtonGroup();
+            this.buttonGroup2 = this.Factory.CreateRibbonButtonGroup();
+            this.group_format = this.Factory.CreateRibbonGroup();
+            this.buttonGroup3 = this.Factory.CreateRibbonButtonGroup();
             this.button_view_initRN = this.Factory.CreateRibbonButton();
             this.button_view_all = this.Factory.CreateRibbonButton();
             this.splitButton_view_floor = this.Factory.CreateRibbonSplitButton();
@@ -140,6 +148,70 @@
             this.checkBox_view_simplify.ScreenTip = "设置/取消精简视图";
             this.checkBox_view_simplify.SuperTip = "选中时将以精简视图查看房态，隐藏前三列和第一行；取消选中时恢复显示。";
             this.checkBox_view_simplify.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.checkBox_view_simplify_Click);
+            // 
+            // group_tool
+            // 
+            this.group_tool.Items.Add(this.splitButton_tool_forms);
+            this.group_tool.Items.Add(this.button_tool_showResDetailsPanel);
+            this.group_tool.Items.Add(this.button_tool_changeEditMode);
+            this.group_tool.Items.Add(this.checkBox_tool_autoBackup);
+            this.group_tool.Items.Add(this.button_getColor);
+            this.group_tool.Items.Add(this.button_tool_killExcel);
+            this.group_tool.Items.Add(this.button_tool_countCurrency);
+            this.group_tool.Items.Add(this.button_qa_copyImage);
+            this.group_tool.Items.Add(this.button_qa_transferRecords);
+            this.group_tool.Label = "工具";
+            this.group_tool.Name = "group_tool";
+            // 
+            // checkBox_tool_autoBackup
+            // 
+            this.checkBox_tool_autoBackup.Label = "自动备份";
+            this.checkBox_tool_autoBackup.Name = "checkBox_tool_autoBackup";
+            // 
+            // group_roomState
+            // 
+            this.group_roomState.Items.Add(this.buttonGroup_rs0);
+            this.group_roomState.Items.Add(this.buttonGroup1);
+            this.group_roomState.Items.Add(this.buttonGroup2);
+            this.group_roomState.Items.Add(this.splitButton_view_markAll);
+            this.group_roomState.Items.Add(this.button_rs_pickUp);
+            this.group_roomState.Items.Add(this.button_rs_pasteRes);
+            this.group_roomState.Label = "房态";
+            this.group_roomState.Name = "group_roomState";
+            // 
+            // buttonGroup_rs0
+            // 
+            this.buttonGroup_rs0.Items.Add(this.button_rs_noShow);
+            this.buttonGroup_rs0.Items.Add(this.button_rs_default);
+            this.buttonGroup_rs0.Items.Add(this.button_rs_prepaid);
+            this.buttonGroup_rs0.Name = "buttonGroup_rs0";
+            // 
+            // buttonGroup1
+            // 
+            this.buttonGroup1.Items.Add(this.button_rs_unpaid);
+            this.buttonGroup1.Items.Add(this.button_rs_paid);
+            this.buttonGroup1.Items.Add(this.button_rs_checkedOut);
+            this.buttonGroup1.Name = "buttonGroup1";
+            // 
+            // buttonGroup2
+            // 
+            this.buttonGroup2.Items.Add(this.button_rs_dep0);
+            this.buttonGroup2.Items.Add(this.button_rs_dep100);
+            this.buttonGroup2.Items.Add(this.button_rs_depOther);
+            this.buttonGroup2.Name = "buttonGroup2";
+            // 
+            // group_format
+            // 
+            this.group_format.Items.Add(this.splitButton_fmt_clear);
+            this.group_format.Items.Add(this.splitButton_fmt_comment);
+            this.group_format.Items.Add(this.buttonGroup3);
+            this.group_format.Label = "格式";
+            this.group_format.Name = "group_format";
+            // 
+            // buttonGroup3
+            // 
+            this.buttonGroup3.Items.Add(this.button_fmt_allBorders);
+            this.buttonGroup3.Name = "buttonGroup3";
             // 
             // button_view_initRN
             // 

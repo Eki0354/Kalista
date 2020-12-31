@@ -36,6 +36,7 @@ namespace Kalista
 
         private void Ribbon_Excel_Load(object sender, RibbonUIEventArgs e)
         {
+            Setter.Initialize();
             InitializeButtonImage();
             Updater.CheckUpdate();
         }

@@ -290,7 +290,7 @@ namespace Kalista
         #endregion
 
         #region CELL_SHARED
-
+        
         public static string GetRoomTag(Worksheet ws, int rowIndex)
         {
             Range range = ws.Cells[rowIndex, 4];

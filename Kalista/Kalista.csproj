@@ -327,6 +327,7 @@
       <DependentUpon>UserControl_ResDetails.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="Kalista.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>PublicSettingsSingleFileGenerator</Generator>

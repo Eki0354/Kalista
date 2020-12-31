@@ -282,7 +282,7 @@ namespace Kalista
         }
 
         private Worksheet Sheet_Today() => AddIn_YuI.App.Worksheets[DateTime.Now.ToString("MM月")];
-        
+
         #endregion
     }
 }
